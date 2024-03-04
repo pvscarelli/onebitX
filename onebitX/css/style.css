@@ -1,0 +1,416 @@
+* {
+  color: white;
+}
+
+.headerImg {
+  width: 250px;
+  padding: 0px 20px;
+}
+
+.header {
+  background-color: transparent;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+header {
+  display: block;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.titlePadding {
+  padding-top: 150px;
+}
+
+.btn {
+  padding: 15px 30px;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+
+.shortTitle {
+  width: 550px;
+}
+
+.mediumTitle {
+  width: 650px;
+}
+
+.footer {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.copy {
+  color: #555252;
+}
+
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+@media (max-width: 405px) {
+  .headerImg {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 380px) {
+  .headerImg {
+    width: 150px;
+    margin-top: 15px;
+  }
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 40px;
+  }
+}
+.container01 {
+  background-image: url(../imgs/home/01.jpg);
+}
+
+.container02 {
+  background-image: url(../imgs/home/03.jpg);
+}
+
+.container03 {
+  background-image: url(../imgs/home/02.gif);
+}
+
+.container04 {
+  background-image: url(../imgs/home/04.jpg);
+}
+
+.container05 {
+  background-image: url(../imgs/hsf/01.jpg);
+}
+
+.container06 {
+  background-image: url(../imgs/hsf/02.jpg);
+}
+
+.container07 {
+  background-image: url(../imgs/hsf/03.jpg);
+}
+
+.container08 {
+  background-image: url(../imgs/hsf/04.jpg);
+}
+
+.container09 {
+  background-image: url(../imgs/hsf/05.jpg);
+}
+
+.container10 {
+  background-color: black;
+  height: 85vh;
+  padding-top: 13%;
+}
+.container10 a {
+  text-decoration: none;
+  color: #b9b9b9;
+}
+.container10 a:hover {
+  color: white;
+}
+
+.container01content {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.titleHsf {
+  font-size: 120px;
+  font-weight: 500;
+  padding: 20px 0px;
+}
+
+.earthDesc {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.earthDesc p {
+  color: #b9b9b9;
+  font-weight: 400px;
+  font-size: 20px;
+  width: 800px;
+}
+.earthDesc a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500px;
+}
+.earthDesc a:hover {
+  color: blue;
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.containerLeftContent {
+  padding-top: 15%;
+  padding-left: 5%;
+}
+
+.titleSection {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 860px) {
+  .titleHsf {
+    width: auto;
+    font-size: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .containerRightContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+  }
+  #exploreBtn {
+    width: 200px;
+  }
+}
+@media (max-width: 550px) {
+  .titleHsf {
+    font-size: 50px;
+  }
+}
+@media (max-width: 420px) {
+  .titleHsf {
+    font-size: 40px;
+  }
+  .titleSection {
+    font-size: 40px;
+  }
+}
+@media (max-width: 320px) {
+  .titleSection {
+    font-size: 30px;
+  }
+}
+.contentTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.titleFalcon9 {
+  font-size: 90px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}
+
+.titleNumbers {
+  font-size: 90px;
+}
+
+.subtitleNumbers {
+  font-size: 20px;
+}
+
+.containerFalcon9Desc {
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textFalcon9 {
+  width: 640px;
+  font-size: 22px;
+  line-height: 50px;
+}
+
+.textMerlin {
+  width: 450px;
+}
+
+.containerMerlinDesc {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container11 {
+  background-image: url(../imgs/falcon9/01.jpg);
+}
+
+.container12 {
+  background-color: black;
+}
+
+.container13 {
+  background-image: url(../imgs/falcon9/02.jpg);
+}
+
+.carousel01 {
+  background-image: url(../imgs/falcon9/03.jpg);
+}
+
+.carousel02 {
+  background-image: url(../imgs/falcon9/04.jpg);
+}
+
+.carousel03 {
+  background-image: url(../imgs/falcon9/05.jpg);
+}
+
+.carousel04 {
+  background-image: url(../imgs/falcon9/06.jpg);
+}
+
+.carousel05 {
+  background-image: url(../imgs/falcon9/07.jpg);
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+
+table {
+  caption-side: bottom;
+  border-collapse: collapse;
+  width: 500px;
+}
+table tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-bottom: 1px solid white;
+}
+table td {
+  padding: 8px;
+}
+
+.carousel06 {
+  background-image: url(../imgs/falcon9/09.jpg);
+}
+
+.carousel07 {
+  background-image: url(../imgs/falcon9/10.jpg);
+}
+
+.carousel08 {
+  background-image: url(../imgs/falcon9/11.jpg);
+}
+
+.carousel09 {
+  background-image: url(../imgs/falcon9/12.jpg);
+}
+
+.carousel10 {
+  background-image: url(../imgs/falcon9/13.jpg);
+}
+
+.carousel11 {
+  background-image: url(../imgs/falcon9/14.jpg);
+}
+
+.carouselText {
+  background-color: black;
+}
+
+.text-end {
+  text-align: right;
+}
+
+.container15 {
+  background-image: url(../imgs/falcon9/08.jpg);
+}
+
+.container16 {
+  padding: 0px;
+}
+
+@media (max-width: 768px) {
+  .titleNumbers {
+    font-size: 80px;
+  }
+  .subtitleNumbers {
+    font-size: 18px;
+  }
+  #overViewPosition {
+    padding-top: 35%;
+  }
+  .textFalcon9 {
+    width: auto;
+  }
+}
+@media (max-width: 680px) {
+  .container12 {
+    background-color: black;
+    height: 60vh;
+    padding-top: 30px;
+  }
+  #overViewPosition {
+    width: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 500px) {
+  .titleFalcon9 {
+    font-size: 50px;
+  }
+  .textFalcon9 {
+    line-height: auto;
+    font-size: 22px;
+  }
+  .textMerlin {
+    width: auto;
+  }
+  table {
+    width: auto;
+  }
+}
+@media (max-widtg: 490px) {
+  .container10 {
+    margin: 10px 0px;
+  }
+  .subtitleFalcon {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
